@@ -1,0 +1,42 @@
+.o-groups-card{
+    border-radius: 5px;
+    margin-top: 7px;
+    box-shadow: 1px 1px 10px 1px #00000010;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis
+}
+
+.o-groups-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.o-groups-card-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.o-groups-card-label{
+    font-weight: 600 !important;
+}
+
+.o-groups-card-left-avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.o-groups-card-button{
+    color:  adjust-hue($color: #346bfe, $degrees: 0) !important;
+    
+}
+
+
+
+
+    

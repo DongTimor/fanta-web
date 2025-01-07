@@ -1,0 +1,85 @@
+.m-slider {
+  max-width: 900px;
+  max-height: 300px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+
+  .slick-next {
+    right: 0;
+    top: 46%;
+    z-index: 1;
+    color: black;
+  }
+
+  .slick-prev {
+    left: 0px;
+    top: 46%;
+    z-index: 1;
+    color: black;
+  }
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .slick-next::before {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+  }
+
+  .slick-prev::before {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+  }
+}
+
+/* Mobile devices (phones, 0px to 767px) */
+@media only screen and (max-width: 400px) {
+  .m-slider {
+    max-width: 100% !important;
+    max-height: auto !important;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+
+    .slick-next {
+      display: none !important;
+    }
+
+    .slick-prev {
+      display: none !important;
+    }
+    
+
+    .slick-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      float: left;
+      height: 100%;
+      width: auto;
+    }
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* CSS cho máy tính bảng */
+}
+
+/* Laptops (1025px to 1440px) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* CSS cho laptop */
+}
+
+/* Desktops (1441px and above) */
+@media only screen and (min-width: 1441px) {
+  /* CSS cho máy tính để bàn */
+}

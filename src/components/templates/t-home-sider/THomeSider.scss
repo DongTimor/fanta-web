@@ -1,0 +1,71 @@
+.t-home-sider {
+    
+
+
+    // overflow-y: auto;
+    // overflow-x: hidden;
+
+    margin-left: 48px;
+    width: 400px;
+    max-width: 400px;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    min-width: 300px;
+    flex-shrink: 1;
+    
+    
+    p.Card_name_label{
+        text-align: left;
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+
+    }
+
+    
+}
+
+
+.sticky {
+
+    top: 0;
+
+}
+
+.t-home-sider-left-friend-request {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 10px 20px 10px;
+}
+
+.t-home-sider-left-event {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 10px 20px 10px;
+
+}
+
+.t-home-sider-left-group {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 10px 20px 10px;
+
+}       
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .t-home-sider {
+        display: none;
+    }
+}

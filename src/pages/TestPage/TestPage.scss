@@ -1,0 +1,17 @@
+.test-page {
+    position: relative; /* Thay đổi từ inline-block sang relative */
+    width: 200px;      /* Chiều rộng của container */
+    height: 200px;     /* Chiều cao của container */
+    overflow: hidden;  /* Ẩn các phần tử tràn ra ngoài */
+}
+
+.item {
+    position: absolute; /* Giữ nguyên vị trí absolute cho item */
+    top: 0;            /* Đặt item ở trên cùng */
+    left: 0;           /* Đặt item ở bên trái */
+    width: 90% !important;       /* Chiều rộng của item */ 
+    z-index: 2;   /* Chiều cao của item */
+    box-sizing: border-box; /* Tính toán kích thước bao gồm padding và border */
+    /* Thêm các thuộc tính khác nếu cần */
+}
+

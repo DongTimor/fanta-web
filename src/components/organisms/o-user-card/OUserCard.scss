@@ -1,0 +1,52 @@
+.o-user-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.o-user-card-body {
+    width: 315px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px;
+    
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+}
+
+
+
+.o-user-card-body-user {
+    background-color: red;
+}
+
+.name_fix {
+    text-align: left !important;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .o-user-card-body {
+        width: max-content;
+        align-items: ri;
+    }
+
+    svg {
+        width: 15px;
+        height: 15px;
+    }
+
+
+    
+}
+

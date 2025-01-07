@@ -1,0 +1,35 @@
+.story-card {
+  border-radius: 5%;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+
+  .image-card {
+    width: 240px;
+    aspect-ratio: auto 240 / 300;
+    height: 300px;
+  }
+
+  .story-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0rem;
+    z-index: 10;
+    background-color: #00000050;
+    line-height: normal;
+
+
+    p {
+      margin-left: 15%;
+      color: white;
+      width: min-content;
+      font-size: 20px;
+    }
+  }
+}
+

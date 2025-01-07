@@ -1,0 +1,61 @@
+.t-home-sider-right {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    margin-left: 50px;
+    max-width: 500px;
+    min-width: 305px;
+    height: 100vh;
+    background-color: transparent;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    width: 400px;
+
+
+    p.Card_name_label{
+        text-align: left;
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+
+    }
+}
+
+.t-home-sider-right-friend-contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 0px 20px 0px;
+    
+}
+
+.t-home-sider-right-groups-conversation {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 0px 20px 0px;
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .t-home-sider-right {
+        display: none;
+    }
+}
+

@@ -1,0 +1,77 @@
+
+
+
+.o-feed-card {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none !important;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+
+.o-feed-card-end-content {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.o-feed-card-end-content > * {
+  cursor: pointer;
+}
+
+.o-feed-card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.o-feed-card-avatar{
+
+  flex-shrink: 0;
+  margin-right: 15px;
+
+}
+
+.o-feed-card-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  @media only screen and (max-width: 1024px) {
+
+    .o-feed-card-avatar{
+
+      margin-right: 0px;
+    
+    }
+
+    .o-feed-card-end-content button {
+      display: none;
+    }
+    
+    /* Chỉ hiển thị nút cuối cùng trong container */
+    .o-feed-card-end-content button:last-child {
+      display: inline-block; /* Hoặc display: block; tùy thuộc vào kiểu hiển thị bạn muốn */
+    }
+  }

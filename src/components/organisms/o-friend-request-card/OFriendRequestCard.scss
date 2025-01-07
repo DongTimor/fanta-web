@@ -1,0 +1,60 @@
+.o-friend-request-card{
+    margin-top: 7px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #00000010;
+    
+}
+
+.body-card{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    overflow: hidden;
+    
+}
+
+.body-card-left{
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.o-friend-request-card{
+    width: 100%;
+    flex-grow: 1;
+    
+}
+
+.footer-card{
+    
+    margin-top: -15px;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+    height: min-content;
+    width: fit-content;
+    padding: 0px;
+}
+
+.confirm-button{
+    color:  adjust-hue($color: #346bfe, $degrees: 0) !important;
+}
+
+.delete-button{
+    color:  adjust-hue($color: #f55559, $degrees: 0) !important;
+}
+
+.o-friend-request-card-chip{
+    border: 1px solid var(--nextui-colors-warning500);
+    margin-left: -7px;
+}
+
+
+

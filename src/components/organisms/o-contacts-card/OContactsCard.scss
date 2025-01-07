@@ -1,0 +1,43 @@
+.o-contacts-card {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;  
+  background-color: transparent;
+}
+
+.o-contacts-card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: auto;
+  width: inherit;
+  overflow: hidden;
+}
+
+
+.text-small{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.gap-2 {
+  gap: 1.4rem;
+}
+
+.w-10 {
+  width: 3rem;
+}
+
+.h-10 {
+  height: 3rem;
+}
+
+.o-contacts-card-body-chip {
+  border: 1px solid var(--nextui-colors-warning500);
+  margin-left: -7px;
+}
+
+

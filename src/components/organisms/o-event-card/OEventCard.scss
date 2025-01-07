@@ -1,0 +1,54 @@
+.o-event-card{
+    margin-top: 7px;
+    padding: 0px 0px 10px 0px;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 10px 1px #00000010;
+}
+
+.body-card{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.label-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+    // height: 100px;
+}
+
+
+.label-group{
+    padding: 10px;
+    height: min-content;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis
+}
+
+.group-label{
+    font-weight: 600;
+    text-align: left;
+    align-items: center;
+    display: inline-block; 
+    line-height: normal;
+
+}
+
+.address-label{
+    color: adjust-hue($color: #9a999e, $degrees: 0);
+    font-size: 14px;
+    text-align: left;
+    align-items: center;
+    line-height: normal;
+  
+}
+
+
+.detail-button{
+    color:  adjust-hue($color: #346bfe, $degrees: 0) !important;
+
+}
