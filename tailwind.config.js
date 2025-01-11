@@ -2,6 +2,7 @@
 // const {nextui} = require("@nextui-org/react");
 //@ts-ignore
 import { nextui } from '@nextui-org/react';
+import tailwindcssanimate from 'tailwindcss-animate'
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -60,6 +61,6 @@ export default {
   	}
   },
   darkMode: ["class", "class"],
-  plugins: [nextui(), require("tailwindcss-animate")],
+  plugins: [nextui(), tailwindcssanimate],
 
 };
