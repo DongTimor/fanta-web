@@ -13,4 +13,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
+  build: {
+    commonjsOptions: { transformMixedEsModules: true } // Change
+  }
 });
