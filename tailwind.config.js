@@ -1,5 +1,7 @@
 
-const {nextui} = require("@nextui-org/react");
+// const {nextui} = require("@nextui-org/react");
+//@ts-ignore
+import { nextui } from '@nextui-org/react';
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
